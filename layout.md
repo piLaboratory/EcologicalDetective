@@ -1,0 +1,8 @@
+abstract.tex
+fancyplaintextslthep.tex
+sectionResumo_do_pro.tex
+sectionResultados_do.tex
+sectionConcluses_PI.tex
+sectionApoio_institu.tex
+sectionAplicao_da_RT.tex
+sectionProduo_no_per.tex
