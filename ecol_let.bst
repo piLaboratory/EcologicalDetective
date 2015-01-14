@@ -1,1 +1,0 @@
-/home/paulo/work/resources/bib/ecol_let.bst
