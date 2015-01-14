@@ -1,0 +1,1 @@
+/home/paulo/work/resources/bib/ecology.bst

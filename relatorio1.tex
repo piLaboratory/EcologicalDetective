@@ -1,0 +1,165 @@
+\documentclass[12pt, A4]{article}
+\usepackage[english,brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{fancyhdr,multicol}
+\usepackage[paper=a4paper, textwidth=5.5in, top=1in, bottom=1.25in, headheight=.5in, headsep=0.5in, footskip=0.5in]{geometry}
+% \setlength{\hoffset}{-0.5in}
+% \setlength{\textwidth}{6in}
+% \setlength{\voffset}{-0.1in}
+% \setlength{\textheight}{10in}
+% \setlength{\parindent}{0pt}
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex} % espaco entre paragrafos e retira tabulacao no inicio
+\newcommand{\R}{{\sf R}}
+\newcommand{\code}[1]{\texttt{#1}}
+\renewcommand{\footrulewidth}{0.5pt}
+\begin{document}
+%\maketitle
+\pagestyle{fancyplain}
+\lhead[] {\textsl{\footnotesize } \\ \textsl{\footnotesize Relatório Proc. FAPESP 2013/19250--7}}
+\rhead[\fancyplain{}{\textsl{\thepage}}]%
+      {\fancyplain{}{\textsl{\thepage}}}
+\rfoot[]{\textsl{\footnotesize Laboratório de Ecologia Teórica -- IBUSP} \\
+  \footnotesize \url{http://ecologia.ib.usp.br/let}}
+\lfoot[]{}
+\cfoot[]{}
+\thispagestyle{empty}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{-10in}
+\begin{center}
+  {\LARGE Relatório Científico de Andamento} 
+\end{center}
+\begin{description}
+\item[Título do Projeto:] Ferramentas do Detetive Ecológico: uso e avaliação de modelos com detecção imperfeita
+\item[Responsável:] Paulo Inácio de Knegt López de Prado
+\item[Instituição-sede:] Instituto de Biociências, Universidade de São Paulo
+\item[Equipe Executora]{\bf:}
+  \begin{itemize}
+  \item Carlos Ernesto Candia-Gallardo, Pós-graduação em Ecologia IB--USP
+  \item Leonardo Liberali Wedekin, Pós-doutorado IB--USP
+  \item Rodolpho Credo Rodrigues, Pós-graduação em Ecologia IB--USP
+  \item Karlla Barbosa dos Santos, Bolsista TT-III
+  \item Melina de Souza Leite, Especialista em Laboratório, IB--USP
+  \end{itemize}
+\item[Processo:] 2013/19250-7 Auxílio Pesquisa - Regular 
+\item[Vigência:] 01/02/2014 a 31/01/2016 
+\item[Período deste relatório:] 01/02/2014 a 30/01/2015
+\end{description}
+
+\section{Resumo do projeto}
+
+\subsection{Contexto e objetivo geral}
+\label{sec:contexto}
+O desenvolvimento e aplicação de teoria ecológica depende de estimativas
+não-enviesadas e precisas da ocorrência, tamanho e taxas vitais de
+populações naturais. Há uma percepção crescente de que
+tais estimativas são fortemente afetadas por erros de observação, dos
+quais as falsas ausências são o exemplo mais óbvio. Assim, o
+pressuposto de detecção perfeita ou invariável de espécies e
+indivíduos em sido fortemente questionado, bem como os resultados que
+dele derivam. Em resposta a esse problema desenvolveu-se um formalismo
+de modelos estatísticos que separa dois níveis de
+variação dos dados: a camada de observação e a camada do processo
+biológico. Os  modelos hierárquicos com detecção
+imperfeita são resultado desse formalismo. Têm implementações
+computacionais acessíveis a ecólogos, e podem ser aplicadas em muito
+mais casos do que têm sido. Por outro lado, essa nova abordagem
+envolve procedimentos estatísticos mais complexos e um maior esforço
+de amostragem. Assim, é necessário avaliar os ganhos efetivos dos
+modelos com detecção imperfeita em diferentes tipos de pesquisas
+ecológicas. O objetivo desta proposta é usar estimativas de
+ocorrência, abundância e taxas vitais de espécies obtidos com modelos
+de detecção imperfeita em três estudos de casos que juntos abrangem
+testes sobre estrutura e dinâmicas de populações e comunidades, em
+aspectos teóricos e aplicados. Além da importância teórica e aplicada
+dos estudos de caso em si, vamos avaliar a sensibilidade dos
+resultados e conclusões à adoção da abordagem de modelos com detecção
+imperfeita.
+
+\subsection{Objetivos específicos}
+\label{sec:especificos}
+
+\begin{enumerate}
+\item Testar se mudanças temporais na abundância relativa e
+  diversidade de borboletas nectarívoras de subosque  
+  são condizentes com previsões da Teoria Neutra ou com
+  previsões de modelos baseados em nicho. 
+\item Investigar se a correlações entre a diversidade de estratos da
+  vegetação e diversidade de aves de cerrado é explicada pelos padrões
+  de uso e sobreposição de uso desses estratos pelas aves.
+\item Investigar os efeitos de flutuações climáticas a nível global na
+  dinâmica populacional das baleias-jubarte que usam as águas
+  brasileiras como área de reprodução.
+\item Avaliar o impacto do uso das estimativas com detecção imperfeita
+  sobre as conclusões obtidas no três estudos de caso acima.
+\end{enumerate}
+
+\section{Resultados do período}
+% Cada seção descrever brevemente:
+% 1- Resumo das atividades de coleta de dados realizadas (descrição
+% breve das viagens/coletas e o resultado geral de cada uma, uma
+% tabela de resumo dos dados obtidos até o momento). 
+% 2 - Mudanças de metodologia e/ou no cronograma, justificadas
+% 3 - Mudanças e acréscimos de objetivos, com justificativa
+% 4 - Próximos passos, com referência explícita ao previsto no cronograma
+% 5 - outras observações que julgar pertinentes
+
+\subsection{Borboletas: dinâmica de comunidades e neutralidade} %Kiwi
+\label{sec:dinamica-temporal-borb}
+%% Kiwi: pode ater-se à pergunta original deste projeto, mesmo que em
+%% seu doutorado estejamos em mudança. Os dados permitem testar a
+%% hipótese original e por ora creio que basta mostrar que estamos
+%% coletando-os adequadamente. O resultado parcial que pode ser
+%% adiantado é a comparação das taxas demográficas entre as diversas espécies.
+
+\subsection{Aves: complexidade de habitats e diversidade} % Rodolpho
+\label{sec:compl-de-habit}
+%% Descrição das atividades do piloto
+%% Descrição do delineamento amostral
+%% Resumo dos dados coletados até ao momento: um resumo que indique
+%% que a densidade de registros é suficiente para responder às perguntas
+
+\subsection{Baleias: dinâmica populacional e flutuações climáticas} % Leo
+\label{sec:dinam-popul-de}
+%% Além dos resultados e análise já realizados, indicar rede de
+%% colaborações estabelecidas e como se articulam com o projeto.
+
+\subsection{Síntese: sensibilidade à detecção imperfeita} % PI
+
+\section{Conclusões} %PI
+
+
+\section{Apoio institucional} %PI
+Recebi todo o apoio institucional necessário, que foi detalhado no formulário de infraestrutura institucional, 
+encaminhado com o termo de outorga. 
+
+\section{Aplicação da RT e benefícios complementares} %PI
+
+% Utilizei a maior parte da reserva técnica e benefícios complementares na adequação do laboratório que recebi
+% de meu departamento. Foram necessárias mudanças de instalação, remoção de bancadas e aquisição de mobiliário
+% para torná-lo um ambiente adequado ao trabalho teórico e computacional. Antes de realizar estes 
+% gastos, consultei o canal \emph{``Converse com a FAPESP''}, e recebi autorização. 
+% Usei uma pequena fração da reserva técnica para comprar uma mochila para \emph{notebook},
+% e cerca de R\$3.150,00 em mais um \emph{notebook} para a equipe.
+
+\section{Produção no período} % Todos
+%indiquem se houve algum artigo, comunicação em congresso, etc
+As instruções da FAPESP para relatórios científicos solicitam a lista de publicações resultantes do projeto no período.
+Assim, informo que, entre as modalidades de publicação indicadas nas instruções, foi produzida 
+
+
+\subsection{Trabalhos preparados} % todos
+%% Manuscritos em preparação derivados od projeto: indicar aqui e
+%% enviar cópia a mim ou incluí-la no GitHub
+Também conforme as instruções da FAPESP, incluo esta seção. 
+
+De acordo com as instruções, anexei uma cópia dos manuscritos a este relatório.
+
+\bibliographystyle{ecol_let}
+
+\end{document}
