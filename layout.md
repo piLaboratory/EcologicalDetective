@@ -2,6 +2,9 @@ fancyplaintextslthep.tex
 sectionResumo_do_pro.tex
 sectionResultados_do.tex
 subsectionBorbo.tex
+subsectionAves.tex
+subsectionBaleias.tex
+subsectionSintese.tex
 sectionConcluses_PI.tex
 sectionApoio_institu.tex
 sectionAplicao_da_RT.tex
