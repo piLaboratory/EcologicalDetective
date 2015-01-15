@@ -1,6 +1,7 @@
 fancyplaintextslthep.tex
 sectionResumo_do_pro.tex
 sectionResultados_do.tex
+subsectionBorbo.tex
 sectionConcluses_PI.tex
 sectionApoio_institu.tex
 sectionAplicao_da_RT.tex
