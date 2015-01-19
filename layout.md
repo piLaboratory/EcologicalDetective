@@ -4,6 +4,7 @@ sectionResultados_do.tex
 subsectionBorbo.tex
 subsectionAves.tex
 subsectionBaleias.tex
+figures/crop_Moria1/crop_Moria1.jpg
 subsectionSintese.tex
 sectionConcluses_PI.tex
 sectionApoio_institu.tex
