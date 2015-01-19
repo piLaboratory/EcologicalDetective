@@ -5,6 +5,7 @@ subsectionBorbo.tex
 subsectionAves.tex
 subsectionBaleias.tex
 figures/crop_Moria2/crop_Moria2.jpg
+figures/DSC_0393/DSC_0393.JPG
 subsectionSintese.tex
 sectionConcluses_PI.tex
 sectionApoio_institu.tex
