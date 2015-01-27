@@ -5,6 +5,7 @@ subsectionBorbo.tex
 subsectionAves.tex
 figures/dados_piloto1/dados_piloto1.jpg
 figures/reg_fito/reg_fito.jpg
+figures/dados_fito/dados_fito.jpg
 subsectionBaleias.tex
 figures/crop_Moria2/crop_Moria2.jpg
 figures/DSC_0393/DSC_0393.JPG
