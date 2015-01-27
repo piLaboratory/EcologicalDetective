@@ -3,7 +3,6 @@ sectionResumo_do_pro.tex
 sectionResultados_do.tex
 subsectionBorbo.tex
 subsectionAves.tex
-figures/dados_piloto1/dados_piloto1.jpg
 figures/reg_fito/reg_fito.jpg
 figures/dados_fito/dados_fito.jpg
 figures/dados_strata/dados_strata.jpg
