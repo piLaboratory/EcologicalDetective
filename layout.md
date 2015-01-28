@@ -2,7 +2,6 @@ fancyplaintextslthep.tex
 sectionResumo_do_pro.tex
 sectionResultados_do.tex
 subsectionBorbo.tex
-figures/Imagem1/Imagem1.jpg
 figures/Hypoleria lavinia1/Hypoleria lavinia1.jpg
 dinamica-temporal-borb.tex
 subsectionAves.tex
