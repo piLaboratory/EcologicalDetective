@@ -2,6 +2,7 @@ fancyplaintextslthep.tex
 sectionResumo_do_pro.tex
 sectionResultados_do.tex
 subsectionBorbo.tex
+figures/Hypoleria lavinia/Hypoleria lavinia.jpg
 subsectionAves.tex
 figures/dados_piloto2/dados_piloto2.jpg
 figures/reg_fito/reg_fito.jpg
