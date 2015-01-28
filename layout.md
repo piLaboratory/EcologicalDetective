@@ -6,6 +6,7 @@ figures/Hypoleria lavinia1/Hypoleria lavinia1.jpg
 figures/Imagem2/Imagem2.jpg
 dinamica-temporal-borb.tex
 figures/Imagem4/Imagem4.jpg
+figures/Imagem5/Imagem5.jpg
 subsectionAves.tex
 figures/dados_piloto2/dados_piloto2.jpg
 figures/reg_fito/reg_fito.jpg
