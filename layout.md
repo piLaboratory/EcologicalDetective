@@ -4,7 +4,7 @@ sectionResultados_do.tex
 subsectionBorbo.tex
 figures/Imagem10/Imagem10.jpg
 figures/Imagem11/Imagem11.jpg
-figures/Imagem2/Imagem2.jpg
+figures/Imagem2/Imagem1.jpg
 dinamica-temporal-borb.tex
 figures/Imagem4/Imagem4.jpg
 figures/Imagem5/Imagem5.jpg
