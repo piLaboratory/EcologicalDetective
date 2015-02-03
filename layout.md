@@ -15,6 +15,7 @@ figures/dados_piloto2/dados_piloto2.jpg
 figures/reg_fito/reg_fito.jpg
 figures/dados_fito/dados_fito.jpg
 figures/ocupacao/ocupacao.jpg
+figures/deteccao/deteccao.jpg
 figures/dados_strata/dados_strata.jpg
 subsectionBaleias.tex
 figures/crop_Moria2/crop_Moria2.jpg
