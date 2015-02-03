@@ -1,0 +1,10 @@
+# Temporary files
+*~
+
+# latex files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.pdf
