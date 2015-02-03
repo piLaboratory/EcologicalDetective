@@ -2,7 +2,6 @@ fancyplaintextslthep.tex
 sectionResumo_do_pro.tex
 sectionResultados_do.tex
 subsectionBorbo.tex
-figures/Imagem10/Imagem10.jpg
 figures/Imagem11/Imagem11.jpg
 figures/Imagem2/Imagem1.jpg
 dinamica-temporal-borb.tex
