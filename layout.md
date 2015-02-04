@@ -11,7 +11,6 @@ figures/Imagem6/Imagem6.jpg
 figures/Imagem7/Imagem7.jpg
 subsectionAves.tex
 figures/reg_fito/reg_fito.jpg
-figures/dados_fito/dados_fito.jpg
 figures/ocupacao/ocupacao.jpg
 figures/deteccao/deteccao.jpg
 figures/dados_strata/dados_strata.jpg
