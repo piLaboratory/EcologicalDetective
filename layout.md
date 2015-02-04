@@ -10,7 +10,6 @@ figures/Imagem5/Imagem5.jpg
 figures/Imagem6/Imagem6.jpg
 figures/Imagem7/Imagem7.jpg
 subsectionAves.tex
-figures/dados_piloto2/dados_piloto2.jpg
 figures/reg_fito/reg_fito.jpg
 figures/dados_fito/dados_fito.jpg
 figures/ocupacao/ocupacao.jpg
