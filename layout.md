@@ -1,4 +1,4 @@
-fancyplaintextslthep.tex
+<!-fancyplaintextslthep.tex->
 sectionResumo_do_pro.tex
 sectionResultados_do.tex
 subsectionBorbo.tex
