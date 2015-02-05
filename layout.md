@@ -1,5 +1,5 @@
-fancyplaintextslthep.tex
-<!---sectionResumo_do_pro.tex
+<-!fancyplaintextslthep.tex
+<!-sectionResumo_do_pro.tex
 sectionResultados_do.tex
 subsectionBorbo.tex
 figures/Imagem11/Imagem11.jpg
@@ -20,4 +20,4 @@ figures/DSC_0393/DSC_0393.JPG
 sectionConcluses_PI.tex
 sectionApoio_institu.tex
 sectionAplicao_da_RT.tex
-sectionProduo_no_per.tex--->
+sectionProduo_no_per.tex
