@@ -1,5 +1,5 @@
-fancyplaintextslthep.tex
-<!-sectionResumo_do_pro.tex
+<!-fancyplaintextslthep.tex
+sectionResumo_do_pro.tex
 <-!sectionResultados_do.tex
 <-!subsectionBorbo.tex
 <-!figures/Imagem11/Imagem11.jpg
