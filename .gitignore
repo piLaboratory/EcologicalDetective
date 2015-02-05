@@ -8,3 +8,6 @@
 *.blg
 *.out
 *.pdf
+
+## Complementary files
+arquivos_complementares/
