@@ -1,4 +1,13 @@
-*.aux
-*.pdf
-*.log
+# Temporary files
 *~
+
+# latex files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.pdf
+
+## Complementary files
+arquivos_complementares/
